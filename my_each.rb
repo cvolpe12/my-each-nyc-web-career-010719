@@ -4,7 +4,7 @@ def my_each(numbers) # put argument(s) here
   # code here
   i = 0
   while i < numbers.length
-    yield array[i]
+    yield (numbers[i])
     i += 1
   end
   array
